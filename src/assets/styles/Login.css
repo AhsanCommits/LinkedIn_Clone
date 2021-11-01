@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+.LoginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+.LoginContainer > img {
+  object-fit: contain;
+  height: 140px;
+}
+
+.LoginContainer > form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.LoginContainer > form > input {
+  width: 250px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #eef3f8;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+}
+
+.LoginContainer > button {
+  width: 250px;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: white;
+  background-color: #2867b2;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+.register_link {
+  color: #2867b2;
+  font-weight: bold;
+  cursor: pointer;
+}
+.LoginContainer > p {
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,90 @@
+.sidebarLeft_Main {
+  flex: 0.2;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.sidebarLeft {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  border: 0.1px solid #dfdedb;
+}
+.sidebarLeft > img {
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: -30px;
+  height: 80px;
+}
+
+.sidebarLeft > div > h4 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.number_stats {
+  color: #4475c6;
+  font-weight: 600;
+  padding: 1px 8px;
+}
+.display_stats {
+  font-size: 12px;
+  padding: 1px 8px;
+  color: gray;
+}
+
+.info > p {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: -25px;
+}
+
+.sidebarLeft_stats > p {
+  font-size: 12px;
+}
+.sidebarLeft_stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px;
+}
+.first {
+  margin-top: 10px;
+}
+.second {
+  margin-bottom: 10px;
+}
+.sidebarLeft_stats:hover {
+  cursor: pointer;
+  background-color: #f2f1ee;
+}
+
+.sidebarLeft_Recent {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.1px solid #dfdedb;
+}
+.sidebarLeft_Recent > h4 {
+  color: gray;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.sidebarLeft_Recent > div > p {
+  font-size: 14px;
+  color: gray;
+  padding: 7px 10px 2px 10px;
+}
+
+.hastags:hover {
+  cursor: pointer;
+  background-color: #f2f1ee;
+  color: black;
+}

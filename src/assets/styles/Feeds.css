@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+.feedsInput_container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 7.5%;
+  border: 0.1px solid #dfdedb;
+}
+
+.feedsInput_writePost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.feedsContainer {
+  flex: 0.45;
+  margin-left: 20px;
+}
+.feedsInput_textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.3px solid gray;
+  border-radius: 25px;
+  width: 450px;
+  height: 45px;
+}
+.textInput {
+  outline: none;
+  border: none;
+  background: none;
+  width: 100%;
+  width: 450px;
+  height: 43px;
+  padding: 10px 16px;
+}
+.textInput:hover {
+  background: rgba(235, 235, 235, 1);
+  cursor: pointer;
+  border-radius: 25px;
+}
+.InputOptionsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+.singleOptionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.singleOptionContainer:hover {
+  cursor: pointer;
+  background-color: #f2f1ee;
+  border-radius: 5px;
+}
+.feedPostContainer {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  border: 0.1px solid #dfdedb;
+}
+
+.feedPostHeader {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.feedPostHeading {
+  margin-left: 10px;
+}
+.feedPostHeading > p {
+  font-size: 12px;
+  color: gray;
+}
